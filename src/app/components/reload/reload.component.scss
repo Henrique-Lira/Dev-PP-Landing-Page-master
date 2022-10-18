@@ -1,6 +1,9 @@
 .reload-app{
     .reload-app-content{
         padding-left: 6vw;
+        // .reload-mobile{
+        //     display: none;
+        // }
     }
     h1{
         background: linear-gradient(91.06deg, #FFFFFF 2.26%, #7589FF 17.78%);
@@ -74,10 +77,13 @@
     .meetuos{
         display: grid;
         grid-template-columns: auto auto;
+        // margin-left: -60px;
+        // padding-left: 40px;
     }
 
     .divpodcast{
         margin-left: 50%;
+        padding-left: 30px;
         
     }
     .btn2{
@@ -125,8 +131,14 @@
 }
 @media screen and (max-width: 800px) {
     .reload-app{
-        margin-top: -330px;
+        margin-top: -570px;
         .reload-app-content{
+            .reload-descktop{
+                display: none;
+            }
+            .reload-mobile{
+                display: inline;
+            }
             padding-left: 6vw;
             h1{
                 background: linear-gradient(91.06deg, #FFFFFF 2.26%, #7589FF 50.78%);
@@ -156,9 +168,9 @@
                     }
 
                     .resume{
-                        margin-top: -10px;
+                        margin-top: -20px;
                         margin-bottom: 92px;
-                        background-color: rgb(3, 3, 3);
+                        // background-color: #000814;
                         width: 100%;
                         padding-left: 22px;
 
@@ -171,6 +183,7 @@
 
             .divpodcast{
                 margin-left: 0;
+                padding-left: 0;
                     p{
                         font-size: 0.938rem;
                         letter-spacing: 0.72px;

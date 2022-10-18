@@ -1,8 +1,13 @@
 #home {
-    background-image: url("../../../assets/images/background-image/BG.png");
+    margin-bottom: -350px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1080px;
+    height: 1280px;
+    .desktop{
+        display: inline;
+        width: 100%;
+        margin-top: -500px;
+    }
     .content {
         text-align: center;
         width: 100%;
@@ -45,7 +50,6 @@
             text-align: center;
             padding-left: 16vw;
             padding-right: 16vw;
-
             p {
                 letter-spacing: 0.72px;
                 color: #FAFAFA;
@@ -70,6 +74,9 @@
         .content {
             padding: 0;
             margin: 0;
+            .desktop{
+                display: none;
+            }
             h1 {
                 &.text-large {
                     font-weight: 700;
