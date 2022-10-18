@@ -131,13 +131,14 @@
 }
 @media screen and (max-width: 800px) {
     .reload-app{
-        margin-top: -570px;
+        margin-top: -500px;
         .reload-app-content{
             .reload-descktop{
                 display: none;
             }
             .reload-mobile{
                 display: inline;
+                margin-bottom: 20px;
             }
             padding-left: 6vw;
             h1{

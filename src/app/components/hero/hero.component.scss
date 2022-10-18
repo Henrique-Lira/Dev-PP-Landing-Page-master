@@ -6,7 +6,7 @@
     .desktop{
         display: inline;
         width: 100%;
-        margin-top: -500px;
+        margin-top: -600px;
     }
     .content {
         text-align: center;
@@ -18,14 +18,20 @@
 
         h2 {
             &.text-medium {
-                font-size: 1.5rem;
+                padding-top: 150px;
+                font-family: 'Chakra Petch';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 130%;
+                text-align: center;
+                letter-spacing: 0.24em;
+                text-transform: uppercase;
                 background: linear-gradient(91.06deg, #00F0FF 2.26%, #FFFFFF 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
-                padding-top: 150px;
-                font-weight: 700;
-                font-size: 1.4rem;
+                text-fill-color: transparent;
             }
         }
         h1 {
@@ -54,10 +60,14 @@
                 letter-spacing: 0.72px;
                 color: #FAFAFA;
                 padding-top: 64px;
+
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 140%;
             }
         }
         .mouse-scroll {
-            padding-top: 104px;
+            padding-top: 80px;
             padding-bottom: 0px;
             background-color: transparent;
         }
